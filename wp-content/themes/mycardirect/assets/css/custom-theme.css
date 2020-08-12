@@ -1,0 +1,105 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+footer h4 {
+    font-size: 22px;
+    line-height: 32px;
+    position: relative;
+    text-transform: none;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.new-landing-footer {
+    background-color: #5A585E;
+    text-align: left;
+    clear: both;
+    margin: 0;
+    position: relative;
+    padding: 50px 80px;
+}
+.new-landing-footer h4 {
+    color: #717482;
+    font-family: 'Open Sans', sans-serif;
+}
+.new-landing-footer ul {
+    margin: 0;
+}
+.new-landing-footer ul li {
+    line-height: 28px;
+    margin: 0;
+}
+.new-landing-footer p, 
+.new-landing-footer li, 
+.new-landing-footer a {
+    color: #fff;
+    list-style: none;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.m-0 {
+    margin: 0;
+}
+.footer-content-section p {
+    line-height: 18px;
+    font-size: 13px;
+    text-align: left;
+    color: #FFF;
+}
+.footer-col-social ul {
+    float: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+}
+.footer-col-social ul li {
+    width: auto;
+    padding: 0 5px;
+    line-height: 28px;
+    margin: 0;
+    float: left;
+}
+.footer-col-social ul li a {
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding: 0 10px 0 28px;
+    width: 34px;
+    float: left;
+    background-size: contain;
+    height: 34px;
+}
+a.fb-icon {
+    background-image: url('https://cdn2.hubspot.net/hubfs/4034898/fb.svg');
+}
+a.insta-icon {
+    background-image: url('https://cdn2.hubspot.net/hubfs/4034898/insta.svg');
+}
+a.link-icon {
+    background-image: url('https://cdn2.hubspot.net/hubfs/4034898/linkedIn.svg');
+}
+a.twitter-icon {
+    background-image: url('https://cdn2.hubspot.net/hubfs/4034898/twitter.svg');
+}
+.footer-content-section {
+    margin: 0;
+    padding: 30px 18px 0 18px;
+}
+
+.logo-section-background {
+    background:#F1F1F1;
+}
+.your-term-section {
+    background: url(../images/your-term-bg.svg) no-repeat center;
+    background-size: auto;
+    background-size: cover;
+    width: 100%;
+    height: 296px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.testimonail-logo {
+    margin: 0 auto;
+}
