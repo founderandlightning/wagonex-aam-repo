@@ -1,4 +1,4 @@
-<section class="ready-get-start-bg">
+<section class="ready-get-start-bg how-it-work-sm-banner">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">

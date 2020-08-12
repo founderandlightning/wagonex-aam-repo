@@ -1,22 +1,22 @@
-<div class="col-md-12">
-    <div class="row content-right-center">
-        <div class="col-md-6 subscription-content-block car-content car-content-right">
-            <div class="sub-widget insurance">
-                <h4>Insurance</h4>
-                <p>
-                    Once you provide a few different pieces of information, our underwriters will give you a tailormade personal lines insurance quote.
-                </p>
-                <p>
-                        You are able to use your personal no-claims discount (NCD) to reduce the monthly premium (as long as you are not already using it on another policy)
-                        and continue to build your personal NCD as you drive.
-                </p>
-                <p>
-                    Alternatively, you are free to use your own insurance. You simply need to provide us with an up to date cover note from your insurer.
-                </p>
+<section class="outer-container">
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <div class="row content-left-center">
+                <div class="col-md-6 text-center">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/howitwork/insurance.jpg" class="img-hero"> 
+                </div>                
+                <div class="col-md-6 subscription-content-block car-content car-content-left">
+                    <div class="sub-widget collection">
+                        <?php
+                        $my_query = new WP_Query('post_type=howweworksections&p=50');            
+                        while ($my_query->have_posts()) : $my_query->the_post(); ?>        
+                        <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>     
+                        <h4><img src="<?php echo $url; ?>" class="img-w1 px-3" /><?php the_title(); ?></h4>
+                        <p><?php the_content(); ?></p>
+                        <?php endwhile ?>
+                    </div>
+                </div>                
             </div>
         </div>
-        <div class="col-md-6 text-center">
-            <img src="https://connectedcarclub.co.uk/wagonex/images/img_insurance.svg" alt="img_w2.jpg">
-        </div>
-    </div>
-</div>
+    </div>    
+</section>

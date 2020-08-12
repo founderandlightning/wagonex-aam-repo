@@ -1,18 +1,23 @@
-<div class="col-md-12">
-    <div class="row content-left-center">
-        <div class="col-md-6 subscription-content-block car-content car-content-left">
-            <div class="sub-widget rotation">
-                <h4>Rotation</h4>
-                <p> Our partners offer great discounts for longer contracts, so the longer you subscribe the more you save!</p>
-                <p>
-                    We give you plenty of warning when your contract is coming to an end so there are no surprises. You are free to switch cars or extend your current
-                    contract if you're enjoying your current car.
-                </p>
+<section class="outer-container">
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/howitwork/subscribe.jpg" class="img-hero"> 
+                </div>
+                <div class="col-md-6">
+                        <div class="sub-widget rotation">
+                            <?php
+                            $my_query = new WP_Query('post_type=howweworksections&p=48');            
+                            while ($my_query->have_posts()) : $my_query->the_post(); ?>   
+                            <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>     
+                            <h4><img src="<?php echo $url; ?>" class="img-w1 px-3" /><?php the_title(); ?></h4>
+                            <p><?php the_content(); ?></p>
+                            <?php endwhile ?>
+                        </div>                    
+                    </div>                    
+                </div>
             </div>
-            
         </div>
-        <div class="col-md-6 text-center">
-            <img src="https://connectedcarclub.co.uk/wagonex/images/img_rotation.svg">
-        </div>
-    </div>
-</div>
+    </div> 
+</section>       

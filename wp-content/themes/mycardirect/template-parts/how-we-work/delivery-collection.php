@@ -1,20 +1,22 @@
-<div class="col-md-12">
-    <div class="row content-left-center">
-        <div class="col-md-6 subscription-content-block car-content car-content-left">
-            <div class="sub-widget collection">
-                <h4>Collection and Delivery</h4>
-                <p>
-                    Our partners will endeavour to deliver your vehicle to locations under 50 miles away for free. Over that, they can arrange delivery at an additional cost. Alternatively you are free to collect the car from any 
-                    of our partner locations; our paperless process means you just need to pick up the key and drive!
-                </p>
-                <p>
-                    We understand that picking up your new vehicle can be be very exciting so our partners are very happy for you to visit 
-                    their showroom for a nose around and a cup of tea!
-                </p>
+<section class="outer-container">
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <div class="row content-right-center">
+                <div class="col-md-6 subscription-content-block car-content car-content-right">
+                    <div class="sub-widget your-car">
+                        <?php
+                            $my_query = new WP_Query('post_type=howweworksections&p=51');            
+                            while ($my_query->have_posts()) : $my_query->the_post(); ?>        
+                            <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+                            <h4><img src="<?php echo $url; ?>" class="img-w1 px-3" /><?php the_title(); ?></h4>
+                            <p><?php the_content(); ?></p>
+                            <?php endwhile ?>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/howitwork/subscribe.jpg" class="img-hero"> 
+                </div>
             </div>
         </div>
-        <div class="col-md-6 text-center">
-            <img src="https://connectedcarclub.co.uk/wagonex/images/img_cnd.svg">
-        </div>
-    </div>
-</div>
+    </div>        
+</section>    
