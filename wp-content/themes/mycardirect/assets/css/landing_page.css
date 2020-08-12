@@ -31,25 +31,6 @@ body {
 .subscription-image-block {
     margin: 0 0 100px 0;
 }
-
-.subscription-section h2 {
-    font-size: 40px;
-    line-height: 56px;
-    text-align: center;
-    font-weight: 600;
-    margin: 125px 0 26px 0;
-    text-transform: none;
-}
-
-.subscription-section h5 {
-    color: #95A2BA;
-    font-size: 22px;
-    line-height: 32px;
-    text-align: center;
-    margin: 0 0 88px 0;
-    text-transform: none
-}
-
 .subscription-content-block .your-car h4,
 .subscription-content-block .rotation h4,
 .subscription-content-block .insurance h4,

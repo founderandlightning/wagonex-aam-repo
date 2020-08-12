@@ -2,6 +2,15 @@ body {
     background: #FFF;
     font-family: 'Open Sans', sans-serif;
 }
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #717482;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bree Serif', serif;
+    color: #2D2E34;
+    font-weight: normal !important;
+}
 .auth-block a.request-call-button {
     font-style: normal;
     font-weight: 600;
@@ -62,12 +71,6 @@ body {
     color: #2D2E34;
     font-size: 15px;
 }
-.hero-content-section h1 {
-    font-size: 40px;
-    line-height: 56px;
-    font-weight: 600;
-    text-transform: none;
-}
 .hero-content-section h5 {
     font-size: 22px;
     line-height: 32px;
@@ -84,7 +87,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 2.8rem 0;
+    padding: 2.8rem 0 0 0;
     width: calc(100% - 8rem);
     max-width: 168rem;
     margin-left: auto;
@@ -92,7 +95,7 @@ body {
 }
 .hero-content-section {
     margin: 0;
-    padding: 0 0 0 30px;
+    padding: 0 0 70px 30px;
 }
 #site-content {
     background: #FFF;;
@@ -136,9 +139,10 @@ body {
     font-size: 40px;
     line-height: 56px;
     text-align: center;
-    font-weight: 600;
-    margin: 125px 0 26px 0;
+    margin: 90px 0 26px 0;
     text-transform: none;
+    font-family: 'Bree Serif', serif;
+    font-weight: normal;
 }
 .subscription-section h5 {
     color: #95A2BA;
@@ -154,4 +158,184 @@ body {
 }
 .action-block {
     margin: 50px 0;
+}
+.hero-content-section h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: normal;
+    padding-right: 250px;
+}
+.subscription-content-block h4 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    align-items: center;
+    color: #2D2E34;
+}
+.subscription-content-block p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #2D2E34;
+}
+.how-it-work-section {
+    background: #F1F1F1;
+}
+.white-box-container .white-box {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px #DFDFDF;
+    border-radius: 16px;
+    padding: 48px;
+    min-height: 353px;
+}
+.white-box p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #2D2E34;
+}
+
+.how-it-work-section .owl-carousel .owl-item img {
+    display: inline-block;
+    width: 48px;
+    margin: 0 15px 0 0;
+}
+
+.how-it-work-section .white-box-container {
+    padding: 0 40px;
+}
+
+.how-it-work-section .owl-carousel .owl-nav button.owl-prev {
+    background: url(assets/images/slider-left-icon.svg) no-repeat 0 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 31.5%;
+    top: 45%;
+}
+
+.how-it-work-section .owl-carousel .owl-nav button.owl-next {
+    background: url(assets/images/slider-right-icon.svg) no-repeat 0 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 31.5%;
+    top: 45%;
+}
+
+.how-it-work-section .how-it-work {
+    position: relative;
+    z-index: 2;
+    margin: 72px auto -120px auto;
+}
+
+.how-it-work-section .owl-carousel {
+    margin: 0 0 40px 0;
+}
+
+.how-it-work-section .btn-section {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.how-it-work-section {
+    width: 100%;
+}
+.how-it-work-section .owl-prev span, 
+.how-it-work-section .owl-next span {
+    display: none;
+}
+.your-term-section h3 {
+    color: #FFF;
+}
+
+.featured-vehicle-section .white-box-container {
+    padding: 0 40px;
+    text-align: center;
+}
+.featured-vehicle-section .owl-carousel .owl-item img {
+    display: inline-block;
+    margin: 0 0 40px 0;
+    width: 100%;
+}
+.featured-vehicle-section .car-brand-name {
+    font-size: 22px;
+    font-weight: normal;
+    color: #2D2E34;
+}
+.featured-vehicle-section .car-model-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 9px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.featured-vehicle-section .car-price {
+    color: #8FC640;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+.featured-vehicle-section .car-duration {
+    font-size: 12px;
+    line-height: 18px;
+    color: #95A2BA;
+    display: block;
+}
+.featured-vehicle-section .owl-carousel .owl-item img {
+    display: inline-block;
+    margin: 0 0 40px 0;
+    width: 100%;
+}
+.featured-vehicle-section .owl-carousel .owl-nav button.owl-prev {
+    background: url(assets/images/slider-left-icon.svg) no-repeat 0 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 35%;
+    top: 80%;
+    cursor: pointer;
+}
+.featured-vehicle-section .owl-carousel .owl-nav button.owl-next {
+    background: url(assets/images/slider-right-icon.svg) no-repeat 0 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 35%;
+    top: 80%;
+    cursor: pointer;
+}
+.featured-vehicle-section .owl-prev span, .featured-vehicle-section .owl-next span {
+    display: none;
+}
+.testimonial-section {
+    background: #F1F1F1;
+}
+.testimonial-white-box {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 30px;
+}
+.testimonial-white-box p{
+    font-size: 15px;
+    line-height: 26px;
+    color: #2D2E34;
+}
+.testimonial-white-box p span a {
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    color: #8FC640 !important;
+    font-weight: bold;
+}
+.hero-image-section {
+    justify-content: center;
+    align-items: end;
+}
+.header-navigation-wrapper .primary-menu a {
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #2D2E34 !important;
 }

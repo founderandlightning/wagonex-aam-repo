@@ -19,8 +19,12 @@ footer h4 {
     padding: 50px 80px;
 }
 .new-landing-footer h4 {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
     color: #717482;
     font-family: 'Open Sans', sans-serif;
+    margin: 0 0 10px 0;
 }
 .new-landing-footer ul {
     margin: 0;
@@ -37,7 +41,6 @@ footer h4 {
     line-height: 28px;
     font-weight: 300;
     font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
 }
 .m-0 {
     margin: 0;
@@ -71,16 +74,16 @@ footer h4 {
     height: 34px;
 }
 a.fb-icon {
-    background-image: url('https://cdn2.hubspot.net/hubfs/4034898/fb.svg');
+    background-image: url('../images/fb.svg');
 }
 a.insta-icon {
-    background-image: url('https://cdn2.hubspot.net/hubfs/4034898/insta.svg');
+    background-image: url('../images/insta.svg');
 }
 a.link-icon {
-    background-image: url('https://cdn2.hubspot.net/hubfs/4034898/linkedIn.svg');
+    background-image: url('../images/linkedin.svg');
 }
 a.twitter-icon {
-    background-image: url('https://cdn2.hubspot.net/hubfs/4034898/twitter.svg');
+    background-image: url('../images/twitter.svg');
 }
 .footer-content-section {
     margin: 0;
@@ -91,7 +94,9 @@ a.twitter-icon {
     background:#F1F1F1;
 }
 .your-term-section {
-    background: url(../images/your-term-bg.svg) no-repeat center;
+    background-image: url(../images/click-drive.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: auto;
     background-size: cover;
     width: 100%;
@@ -99,6 +104,9 @@ a.twitter-icon {
     padding: 0;
     display: flex;
     align-items: center;
+}
+.your-term-section .main-container {
+    background-color: linear-gradient(90deg, rgba(78, 112, 29, 0.5) 54.25%, rgba(97, 147, 26, 0.11) 87.25%);
 }
 .testimonail-logo {
     margin: 0 auto;

@@ -18,11 +18,11 @@ get_header();
 </main><!-- #site-content -->
 <?php get_template_part( 'template-parts/landing/company-logo' ); ?>
 <?php get_template_part( 'template-parts/landing/subscription' ); ?>
-<?php get_template_part( 'template-parts/landing/subscription-section-one' ); ?>
-<?php get_template_part( 'template-parts/landing/subscription-section-second' ); ?>
+<?php get_template_part( 'template-parts/landing/subscription-section' ); ?>
 <?php get_template_part( 'template-parts/landing/how-it-work' ); ?>
 <?php get_template_part( 'template-parts/landing/terms' ); ?>
 <?php get_template_part( 'template-parts/landing/featured-vehicles' ); ?>
 <?php get_template_part( 'template-parts/landing/testimonial' ); ?>
+<?php get_template_part( 'template-parts/landing/terms' ); ?>
 
 <?php get_footer(); ?>

@@ -1,6 +1,5 @@
 <?php
     $my_query = new WP_Query('post_type=homesections&p=18');
-    // echo '<pre>';print_r($my_query); die;
     while ($my_query->have_posts()) : $my_query->the_post(); ?>
     <section class="main-container subscription-section">
         <div class="col-md-12">
