@@ -849,3 +849,67 @@ function how_we_work_post() {
 	register_post_type('howweworksections', $args); 
   }
   add_action('init', 'how_we_work_post');
+
+
+//**************************************************
+// 				Additional Services
+//**************************************************
+function additional_post() {
+	$labels = array(
+	  'name'               => _x( 'Additional Services', 'post type general name' ),
+	  'singular_name'      => _x( 'Additional services', 'post type singular name' ),
+	  'add_new'            => _x( 'Add New', 'additional services' ),
+	  'add_new_item'       => __( 'Add New Additional services Section' ),
+	  'edit_item'          => __( 'Edit Work Section' ),
+	  'new_item'           => __( 'New Additional services' ),
+	  'all_items'          => __( 'Additional services' ),
+	  'view_item'          => __( 'View Additional services Section' ),
+	  'search_items'       => __( 'Search Additional services Sections' ),
+	  'not_found'          => __( 'No additional services section found' ),
+	  'not_found_in_trash' => __( 'No additional services section found in the Trash' ), 
+	  'parent_item_colon'  => '',
+	  'menu_name'          => 'Additional services'
+	);
+	$args = array(
+	  'labels'        => $labels,
+	  'description'   => 'Holds additional services sections and about section specific data',
+	  'public'        => true,
+	  'menu_position' => 6,
+	  'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+	  'has_archive'   => true,
+	);
+	register_post_type('additionalsections', $args); 
+  }
+  add_action('init', 'additional_post');
+
+
+//**************************************************
+//  				Our Team
+//**************************************************
+function our_team_post() {
+	$labels = array(
+	  'name'               => _x( 'Our team work', 'post type general name' ),
+	  'singular_name'      => _x( 'Our teamsection', 'post type singular name' ),
+	  'add_new'            => _x( 'Add New', 'Our teamsection' ),
+	  'add_new_item'       => __( 'Add New Our team Section' ),
+	  'edit_item'          => __( 'Edit Our team Section' ),
+	  'new_item'           => __( 'New Our team' ),
+	  'all_items'          => __( 'Our team' ),
+	  'view_item'          => __( 'View Our team Section' ),
+	  'search_items'       => __( 'Search Our team Sections' ),
+	  'not_found'          => __( 'No our team section found' ),
+	  'not_found_in_trash' => __( 'No our team section found in the Trash' ), 
+	  'parent_item_colon'  => '',
+	  'menu_name'          => 'Our team'
+	);
+	$args = array(
+	  'labels'        => $labels,
+	  'description'   => 'Holds our team sections and about section specific data',
+	  'public'        => true,
+	  'menu_position' => 6,
+	  'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+	  'has_archive'   => true,
+	);
+	register_post_type('ourteamsections', $args); 
+  }
+  add_action('init', 'our_team_post');

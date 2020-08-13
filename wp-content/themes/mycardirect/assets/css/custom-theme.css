@@ -112,5 +112,62 @@ a.twitter-icon {
     margin: 0 auto;
 }
 .how-it-work-sm-banner {
-    background: url(assets/images/howitwork/slider-right-icon.svg);
+    background: url('../images/howitwork/clic-drive-banner.jpg') no-repeat cover;
+    
+}
+.out-team-container {
+    border: 1px solid #BEC9D6;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 40px 0 40px 0;
+    margin: 0 10px 100px 10px;
+}
+.out-team-container {
+    text-align: center;
+}
+.out-team-container .member-pic img {
+    width: 144px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.out-team-container .member-name {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 25px 0 10px 0px;
+    color: #2D2E34;
+}
+.out-team-container .member-position {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2D2E34;
+}
+.out-team-container {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+}
+.member-in {
+    margin: 0 auto;
+    position: relative;
+    bottom: -58px;
+}
+.member-in::after {
+    position: absolute;
+    background: url(../images/about/linkedin.png) no-repeat;
+    width: 50px;
+    height: 50px;
+    content: "";
+    bottom: -10px;
+    left: -15px;
+}
+.team-section {    
+    width: 100%;
+    padding: 0 80px;
+}
+.our-team-container {
+    background: #F2F5FA;
+    width: 100%;
 }

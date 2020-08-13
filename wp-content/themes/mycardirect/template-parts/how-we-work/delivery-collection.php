@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/images/howitwork/subscribe.jpg" class="img-hero"> 
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/howitwork/home-delivery.png" class="img-hero"> 
                 </div>
             </div>
         </div>

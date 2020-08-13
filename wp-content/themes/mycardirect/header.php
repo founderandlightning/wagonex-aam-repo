@@ -31,7 +31,7 @@
 			<div class="header-inner section-inner">
 				<div class="header-titles-wrapper">					
 					<div>
-						<a href="<?php bloginfo('template_url'); ?>">
+						<a href="<?php echo get_home_url(); ?>">
 							<img src="<?php bloginfo('template_url'); ?>/assets/images/logo.svg" />
 						</a>
 					</div><!-- .header-titles -->
@@ -60,20 +60,9 @@
 											'container'  => '',
 											'items_wrap' => '%3$s',
 											'theme_location' => 'primary',
-										)
-									);
-
-								} elseif ( ! has_nav_menu( 'expanded' ) ) {
-
-									wp_list_pages(
-										array(
-											'match_menu_classes' => true,
-											'show_sub_menu_icons' => true,
-											'title_li' => false,
-											'walker'   => new TwentyTwenty_Walker_Page(),
-										)
-									);
-								}
+											)
+										);
+									} 
 								?>
 								</ul>
 							</nav><!-- .primary-menu-wrapper -->

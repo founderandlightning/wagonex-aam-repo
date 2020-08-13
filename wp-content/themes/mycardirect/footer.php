@@ -44,12 +44,21 @@
                   </ul>
                </div>
                <div class="col-xs-12 col-sm-3 footer-copy-write-section">
-                  <div class="footer-col-social">
+                  <div>
                      <h4>Links</h4>                       
                      <ul class="footer-nav navlinks p-0">            
-                        <li>FAQs</li>
-                        <li>Terms & Conditions</li>
-                        <li>Policies</li>
+                        <?php
+                           if ( has_nav_menu( 'footer' ) ) {
+
+                              wp_nav_menu(
+                                 array(
+                                    'container'  => '',
+                                    'items_wrap' => '%3$s',
+                                    'theme_location' => 'footer',
+                                    )
+                                 );
+                              } 
+                           ?>
                      </ul>
                      <div class="copy_write_seciton">
                         <h4>Help and support</h4>
@@ -66,7 +75,7 @@
                         <li><a class="link-icon" href="https://www.linkedin.com/company/wagonex" target="_blank"></a></li>
                         <li><a class="twitter-icon" href="https://twitter.com/DriveWAGONEX" target="_blank"></a> </li>
                      </ul>
-                     <img src="<?php bloginfo('template_url'); ?>/assets/images/bvrla.png" alt="add_logo" />
+                     <img src="<?php bloginfo('template_url'); ?>/assets/images/footer-logo.png" alt="add_logo" />
                   </div>
                </div>         
             </div>
