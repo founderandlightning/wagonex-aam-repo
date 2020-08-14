@@ -15,7 +15,7 @@
       <footer class="new-landing-footer">
          <div class="container-fluid footer-container">
             <div class="row">
-               <div class="col-xs-12 col-sm-3 footer-info-column">
+               <div class="col-md-3 col-sm-12 col-xs-12 footer-info-column">
                   <h4>AAM Group HQ</h4>
                   <ul class="p-0">
                      <li>Alliance Asset Management Ltd.</li>   
@@ -26,11 +26,11 @@
                   </ul>          
                </div>
 
-               <div class="col-xs-12 col-sm-3 footer-col footer-col-nav help-support-section">
+               <div class="col-md-3 col-sm-12 col-xs-12 footer-col footer-col-nav help-support-section">
                   <h4>MyCarDirect</h4>
                   <p>MyCarDirect<br />Unit 1 Hall Road,<br />Hemel Hempstead Industrial Estate,<br />Hemel Hempstead,<br />HP2 7BH</p>
                </div>
-               <div class="col-xs-12 col-sm-3 footer-col-nav">
+               <div class="col-md-3 col-sm-12 col-xs-12 footer-col-nav">
                   <h4>Opening hours</h4> 
                   
                   <ul class="footer-nav navlinks p-0">            
@@ -43,7 +43,7 @@
                      <li>Sun: CLOSED</li>
                   </ul>
                </div>
-               <div class="col-xs-12 col-sm-3 footer-copy-write-section">
+               <div class="col-md-3 col-sm-12 col-xs-12 footer-copy-write-section">
                   <div>
                      <h4>Links</h4>                       
                      <ul class="footer-nav navlinks p-0">            
@@ -67,7 +67,7 @@
                      </div>
                   </div>                     
                </div>
-               <div class="col-md-12 footer-col-social">
+               <div class="col-md-3 footer-col-social">
                   <div class="footer-asc-logo">            
                      <ul class="footer-nav navlinks px-0">
                         <li><a class="fb-icon" href="https://www.facebook.com/wagonex" target="_blank"></a></li>
@@ -75,19 +75,23 @@
                         <li><a class="link-icon" href="https://www.linkedin.com/company/wagonex" target="_blank"></a></li>
                         <li><a class="twitter-icon" href="https://twitter.com/DriveWAGONEX" target="_blank"></a> </li>
                      </ul>
-                     <img src="<?php bloginfo('template_url'); ?>/assets/images/footer-logo.png" alt="add_logo" />
+                     <p class="copy-right-block py-4">© 2020 Alliance Asset Management Ltd. </p>                     
                   </div>
-               </div>         
+               </div>
+               <div class="col-md-3 bvrla-logo">
+                  <img src="<?php bloginfo('template_url'); ?>/assets/images/footer-logo.png" alt="add_logo" />
+               </div>               
             </div>
          </div>
+
          <section class="footer-content-section clearfix">
             <div class="container-fluid">
                <div class="row">
                   <div class="col-xs-12">
-                     <p class="m-0">Wagonex Limited is registered with the Information Commissioner's Office in compliance with the Data Protection Act 1998. Data Protection Registration reference number: ZA219537</p>
-                     <p class="m-0">Wagonex Limited is authorised and regulated by the Financial Conduct Authority with firm reference number 789510. Wagonex Limited is also an Appointed Representative of Complete Cover Group a company authorised and regulated by the Financial Conduct Authority under firm reference number 815256 to carry out insurance mediation activities.</p>
-                     <p class="m-0">Wagonex Limited Company Registration Number: 10312289</p>
-                     <p class="m-0">VAT Number: 256959939</p>
+                     <p class="mb-2">Alliance Asset Management Limited is registered with the Information Commissioner’s Office in compliance with the Data Protection Act 1998. Data Protection Registration reference number: Z7840262. Alliance Asset Management Limited is authorised and regulated by the Financial Conduct Authority with firm reference number 667946.</p>
+                     <p class="mb-2">Insurance provision is supplied through Wagonex Limited an Appointed Representative of Complete Cover Group a company authorised and regulated by the Financial Conduct Authority under firm reference number 815256 to carry out insurance mediation activities. </p>
+                     <p class="mb-2">Alliance Asset Management Limited Company Registration Number: 03107480.</p>
+                     <p class="mb-2">VAT Number: 667706890</p>
                   </div>
                </div>
             </div>

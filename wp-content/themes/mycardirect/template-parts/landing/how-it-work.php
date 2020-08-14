@@ -12,11 +12,11 @@
                     );
                     $posts = get_posts($args);
                     foreach ($posts as $post) : ?>                    
-                        <div class="owl-item cloned">
+                        <div class="owl-item">
                             <div class="white-box-container col-md-12">
-                                <div class="white-box"> 
+                                <div class="white-box d-flex justify-content-center flex-column"> 
                                     <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-                                    <h5 class="d-flex my-1 align-left">
+                                    <h5 class="d-flex my-1 align-left justify-content-start m-0">
                                         <div class="pr-4">
                                             <img src="<?php echo $url; ?>" width="48" alt="collection" />
                                         </div>

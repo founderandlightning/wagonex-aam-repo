@@ -1,4 +1,4 @@
-<section class="outer-container">
+<section class="outer-container best-car-container">
     <div class="container-fluid">
         <div class="col-md-12">
             <div class="row">

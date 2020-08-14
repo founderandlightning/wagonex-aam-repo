@@ -32,6 +32,7 @@ footer h4 {
 .new-landing-footer ul li {
     line-height: 28px;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .new-landing-footer p, 
 .new-landing-footer li, 
@@ -39,8 +40,9 @@ footer h4 {
     color: #fff;
     list-style: none;
     line-height: 28px;
-    font-weight: 300;
+    margin: 0;
     font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 .m-0 {
     margin: 0;
@@ -93,38 +95,26 @@ a.twitter-icon {
 .logo-section-background {
     background:#F1F1F1;
 }
-.your-term-section {
-    background-image: url(../images/click-drive.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: auto;
-    background-size: cover;
-    width: 100%;
-    height: 296px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-}
+
 .your-term-section .main-container {
     background-color: linear-gradient(90deg, rgba(78, 112, 29, 0.5) 54.25%, rgba(97, 147, 26, 0.11) 87.25%);
 }
 .testimonail-logo {
     margin: 0 auto;
 }
-.how-it-work-sm-banner {
-    background: url('../images/howitwork/clic-drive-banner.jpg') no-repeat cover;
-    
-}
+
 .out-team-container {
     border: 1px solid #BEC9D6;
     box-sizing: border-box;
     border-radius: 2px;
     padding: 40px 0 40px 0;
     margin: 0 10px 100px 10px;
-}
-.out-team-container {
     text-align: center;
 }
+.out-team-container:hover {
+    border: 1px solid #8FC640;
+}
+
 .out-team-container .member-pic img {
     width: 144px;
     border-radius: 50%;
@@ -168,6 +158,13 @@ a.twitter-icon {
     padding: 0 80px;
 }
 .our-team-container {
-    background: #F2F5FA;
+    background:#F1F1F1;
     width: 100%;
+    float: left;
+}
+.logo-section {
+    padding-bottom: 20px;
+}
+.best-car-container .sub-widget::after {
+    display: none;
 }

@@ -16,7 +16,7 @@ get_header();
 <?php get_template_part( 'template-parts/how-we-work/hero-section' ); ?>
 
 </main><!-- #site-content -->
-<?php get_template_part( 'template-parts/how-we-work/rotation' ); ?>
+<?php get_template_part( 'template-parts/how-we-work/your-car' ); ?>
 <?php get_template_part( 'template-parts/how-we-work/subscribe' ); ?>
 <?php get_template_part( 'template-parts/how-we-work/insurance' ); ?>
 <?php get_template_part( 'template-parts/how-we-work/delivery-collection' ); ?>

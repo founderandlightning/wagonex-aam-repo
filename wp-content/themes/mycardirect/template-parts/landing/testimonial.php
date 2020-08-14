@@ -6,7 +6,7 @@
         <div class="container">
             <div class="col-md-10 col-sm-12 mx-auto testimonial-container">
                 <div class="testimonial-white-box">                
-                    <img class="testimonail-logo" src="<?php bloginfo('template_url'); ?>/assets/images/logo.svg" />
+                    <img width="149" class="testimonail-logo" src="<?php bloginfo('template_url'); ?>/assets/images/logo.svg" />
                     <p><?php the_content(); ?></p>                    
                 </div>    
             </div>

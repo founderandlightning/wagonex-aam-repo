@@ -23,6 +23,6 @@ get_header();
 <?php get_template_part( 'template-parts/landing/terms' ); ?>
 <?php get_template_part( 'template-parts/landing/featured-vehicles' ); ?>
 <?php get_template_part( 'template-parts/landing/testimonial' ); ?>
-<?php get_template_part( 'template-parts/landing/terms' ); ?>
+<?php get_template_part( 'template-parts/landing/click-drive' ); ?>
 
 <?php get_footer(); ?>

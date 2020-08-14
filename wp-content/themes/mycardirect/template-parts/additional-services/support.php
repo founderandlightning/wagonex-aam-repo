@@ -1,4 +1,4 @@
-<section class="outer-container">
+<section class="outer-container best-car-container">
     <div class="container-fluid">
         <div class="col-md-12">
             <div class="row">                
@@ -8,7 +8,10 @@
                             $my_query = new WP_Query('post_type=additionalsections&p=79');            
                             while ($my_query->have_posts()) : $my_query->the_post(); ?>   
                             <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>     
-                            <h4><img src="<?php echo $url; ?>" class="img-w1 px-3" /><?php the_title(); ?></h4>
+                            <h4>
+                                <img src="<?php echo $url; ?>" class="img-w1 px-3" />
+                                <?php the_title(); ?>
+                            </h4>
                             <p><?php the_content(); ?></p>
                             <?php endwhile ?>
                         </div>                    

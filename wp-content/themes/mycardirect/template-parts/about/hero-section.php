@@ -11,8 +11,8 @@
                     <?php endwhile ?>
                 </div>
             </div>
-            <div class="col-md-6 how-works-image-section">
-                <img src="https://connectedcarclub.co.uk/wagonex/images/how_it_works1.svg" width="750" class="img-hero">
+            <div class="col-md-6 how-works-image-section">            
+            <img width="634" src="<?php bloginfo('template_url'); ?>/assets/images/about/hero.png" class="img-hero"> 
             </div>
         </div>
     </div>

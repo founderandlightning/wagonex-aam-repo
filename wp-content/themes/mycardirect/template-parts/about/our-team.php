@@ -1,4 +1,4 @@
-<section class="our-team-container">
+<section class="our-team-container mt-5">
     <div class="main-container">
     <div class="team-section our-story-team">
         <div class="row">

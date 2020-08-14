@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .auth-block a.request-call-button {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 600 !important;
     font-size: 15px;
     line-height: 18px;
     display: flex;
@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     min-width: 88px;
     min-height: 40px;
+    font-family: 'Open Sans', sans-serif;
 }   
 .auth-block li {
     margin: 0;
@@ -126,15 +127,17 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     min-height: 48px;
 }
-.btn-primary {
+.btn-primary,
+.btn-primary:hover {
     background: #8FC640;
     color: #FFFFFF;
     border: 1px solid #8FC640;
 }
-.btn-secondary {
+.btn-secondary,
+.btn-secondary:hover {
     border: 1px solid #8FC640;
     color: #8FC640;
-    background: #FFF;
+    background:none;
 }
 .btn-primary:hover, .btn-secondary:hover {
     text-decoration: none;
@@ -172,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 40px;
     line-height: 56px;
     font-weight: normal;
-    padding-right: 250px;
+    padding-right: 240px;
 }
 .subscription-content-block h4 {
     font-weight: normal;
@@ -219,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 60px;
     position: absolute;
     left: 31.5%;
-    top: 45%;
+    top: 35%;
 }
 
 .how-it-work-section .owl-carousel .owl-nav button.owl-next {
@@ -228,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 60px;
     position: absolute;
     right: 31.5%;
-    top: 45%;
+    top: 35%;
 }
 
 .how-it-work-section .how-it-work {
@@ -271,23 +274,24 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 22px;
     font-weight: normal;
     color: #2D2E34;
+    font-family: 'Open Sans', sans-serif;
 }
 .featured-vehicle-section .car-model-name {
     font-size: 30px;
-    font-weight: bold;
     margin: 0 0 9px 0;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .featured-vehicle-section .car-price {
     color: #8FC640;
     font-size: 18px;
-    font-weight: normal;
+    font-weight: bold;
     font-family: 'Open Sans', sans-serif;
 }
 .featured-vehicle-section .car-duration {
     font-size: 12px;
     line-height: 18px;
-    color: #95A2BA;
+    color: #717482;
     display: block;
 }
 .featured-vehicle-section .owl-carousel .owl-item img {
@@ -323,11 +327,22 @@ h1, h2, h3, h4, h5, h6 {
     background: #FFFFFF;
     border-radius: 16px;
     padding: 30px;
+    position: relative;
+}
+.testimonial-white-box::after {
+    position: absolute;
+    content: "";
+    background: url(assets/images/quote.png) no-repeat;
+    width: 50px;
+    height: 40px;
+    bottom: -20px;
+    left: 50%;
 }
 .testimonial-white-box p{
     font-size: 15px;
     line-height: 26px;
     color: #2D2E34;
+    margin: 10px 0 25px 0;
 }
 .testimonial-white-box p span a {
     font-size: 14px;
@@ -346,4 +361,218 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     text-align: center;
     color: #2D2E34 !important;
+    font-family: 'Open Sans', sans-serif;
+}
+.sub-widget{
+    position: relative;
+}
+.sub-widget::after {
+    content: "";
+    position: absolute;
+    background: url(assets/images/sub-icon.svg) no-repeat;
+    width: 49px;
+    height: 39px;
+    left: 0;
+    top: 0;
+}
+.name-of-authour {
+    position: relative;
+}
+.name-of-authour::after {
+    position: absolute;
+    background: #F1F1F1;
+    width: 35px;
+    height: 4px;
+    content: "";
+    margin: 0 auto;
+    left: 42%;
+    top: -12px;
+}
+.copy_write_seciton {
+    margin: 18px 0 0 0;
+}
+.copy_write_seciton a {
+    text-decoration: none;
+}
+.your-term-section {
+    background-image: url(assets/images/click-drive.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 296px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+.click-drive-bg {
+    background-image: url(assets/images/click-car-drive.png);
+}
+.how-it-work-sm-banner {
+    background-image: url(assets/images/howitwork/click-drive.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 296px;
+    position: relative;    
+}
+.your-term-section::after,
+.how-it-work-sm-banner::after {
+    background: linear-gradient(90deg, rgba(78, 112, 29, 0.5) 54.25%, rgba(97, 147, 26, 0.11) 87.25%);
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.your-term-section .container,
+.how-it-work-sm-banner .container{
+    position: relative;
+    z-index: 11;
+}
+.how-it-work-sm-banner h3 {
+    color: #FFF;
+}
+.how-we-work-section .sub-widget::after {
+    display: none;
+}
+.sub-widget p {
+    font-size: 15px;
+}
+.sub-widget h4 {
+    font-size: 24px;
+}
+.home-sub-section .sub-widget {
+    padding: 0 0 0 55px;
+}
+.about-customer-point .sub-widget {
+    padding-left: 55px
+}
+.header-titles-wrapper {
+    max-width: inherit !important;
+    padding-right: 0 !important;
+}
+.wagonex-section .close-menu-btn {
+    width: 30px;
+    display: block;
+    flex-flow: column;
+    position: relative;
+    right: 0;
+    align-items: center;
+    margin: 0 16px 0 0;
+}
+.open-icon {
+    background: #2A9FF4;
+    height: 2px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 5px 0;
+}
+
+.aam-logo {
+    width: 190px;
+    max-width: inherit;
+}
+
+.home-terms {
+    margin: 0;
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1024px) { 
+    .how-it-work-section .owl-carousel .owl-nav button.owl-prev {
+        left: 22%;
+    }
+    .how-it-work-section .owl-carousel .owl-nav button.owl-next {
+        right: 22%;
+    }
+    .hero-content-section h1 {
+        padding-right: 0;
+    }
+    .hero-content-section h5 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .hero-content-section h1 {
+        font-size: 34px;
+        line-height: 40px;
+        margin: 0;
+    }
+    .auth-block a.request-call-button {
+        min-width: 150px;
+    }
+    header ul.primary-menu {
+        justify-content: start !important;
+    }
+    header .primary-menu > li {
+        margin: 0 7px;
+    }
+    .auth-block .navbar-nav {
+        margin: 0;
+    }
+    .auth-block a.login {
+        min-width: 70px;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {  
+    .hero-content-section h1 {
+        padding: 0;
+    }
+    .how-it-work-section .owl-carousel .owl-nav button.owl-prev,
+    .featured-vehicle-section .owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+    }
+    .how-it-work-section .owl-carousel .owl-nav button.owl-next,
+    .featured-vehicle-section .owl-carousel .owl-nav button.owl-next {
+        right: 0;
+    }
+    .your-term-section {
+        margin-top: 0;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+    .hero-content-section h1 {
+        padding: 0;
+    }
+    .hero-content-section h1 {
+        padding: 0;
+    }
+    .how-it-work-section .owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+    }
+    .how-it-work-section .owl-carousel .owl-nav button.owl-next {
+        right: 0;
+    }
+    .your-term-section {
+        margin-top: 0;
+    }
+    .testimonial-white-box::after { 
+        left: 43%;
+    }
+    .btn {
+        min-width: 130px;
+    }
+    .how-it-work-section .white-box-container {
+        padding: 0;
+    }
+    .logo-section img {
+        width: 100%;
+    }
+    .white-box-container .white-box {
+        padding: 48px 16px;
+    }
 }
