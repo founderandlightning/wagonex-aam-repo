@@ -1356,7 +1356,7 @@ ul.social-icons li {
 
 .header-inner {
 	max-width: 168rem;
-	padding: 3.15rem 0;
+	padding: 2rem 0;
 	z-index: 100;
 }
 
@@ -1481,7 +1481,7 @@ body:not(.enable-search-modal) .site-logo img {
 	align-items: center;
 	display: flex;
 	overflow: visible;
-	padding: 0 2rem;
+	padding: 0 1rem;
 }
 
 .header-inner .toggle svg {
@@ -1545,7 +1545,6 @@ body:not(.enable-search-modal) .site-logo img {
 /* Navigation Toggle ------------------------- */
 
 .nav-toggle {
-	position: absolute;
 	bottom: 0;
 	right: 0;
 	top: 0;
@@ -1575,7 +1574,7 @@ ul.primary-menu {
 	letter-spacing: -0.0277em;
 	flex-wrap: wrap;
 	justify-content: flex-end;
-	margin: -0.8rem 0 0 -1.6rem;
+	margin: 0;
 }
 
 .primary-menu .icon {
@@ -1856,9 +1855,14 @@ button.close-nav-toggle {
 	width: 100%;
 }
 
+button.close-nav-toggle:focus {
+	outline: 0;
+}
+
 button.close-nav-toggle svg {
-	height: 1.6rem;
-	width: 1.6rem;
+	height: 2.6rem;
+	width: 2.6rem;
+	margin: 0 auto
 }
 
 button.close-nav-toggle .toggle-text {
@@ -1891,9 +1895,8 @@ button.close-nav-toggle .toggle-text {
 
 .modal-menu > li > a,
 .modal-menu > li > .ancestor-wrapper > a {
-	font-size: 2rem;
-	font-weight: 700;
-	letter-spacing: -0.0375em;
+	font-size: 16px;	
+	color: #2D2E34;
 }
 
 .modal-menu > li:last-child {
@@ -1917,7 +1920,8 @@ button.close-nav-toggle .toggle-text {
 .modal-menu a:hover,
 .modal-menu li.current-menu-item > .ancestor-wrapper > a,
 .modal-menu li.current_page_ancestor > .ancestor-wrapper > a {
-	text-decoration: underline;
+	text-decoration: none;
+	color: #8FC640;
 }
 
 button.sub-menu-toggle {
@@ -4876,9 +4880,6 @@ a.to-the-top > * {
 
 	/* Site Header --------------------------- */
 
-	.header-inner {
-		padding: 3.8rem 0;
-	}
 
 	.site-title {
 		font-size: 2.4rem;
@@ -5666,15 +5667,14 @@ a.to-the-top > * {
 
 	/* Site Header --------------------------- */
 
-	#site-header {
-		z-index: 2;
-	}
-
+	
 	.header-inner {
 		align-items: center;
 		display: flex;
 		justify-content: space-between;
 		padding: 1.4rem 0;
+		width: 95%;
+		max-width: inherit;
 	}
 
 	.header-titles-wrapper {
@@ -6128,7 +6128,7 @@ a.to-the-top > * {
 	/* PRIMARY MENU */
 
 	ul.primary-menu {
-		margin: -0.8rem 0 0 -2.5rem;
+		margin: 0;
 	}
 
 	.primary-menu > li {
@@ -6465,4 +6465,10 @@ a.to-the-top > * {
 	.wp-block-pullquote.is-style-solid-color.alignright::before {
 		top: 0;
 	}
+}
+
+#site-header {
+	position: fixed;
+	width: 100%;
+	z-index: 999;
 }

@@ -1,11 +1,11 @@
-<section class="your-term-section">
+<section class="your-term-section mt-5">
    <div class="main-container">
       <div class="container">
          <div class="row">
             <div class="col-md-12 col-sm-12">
                <h3 class="text-center m-0">Click and Drive</h3>
                <div class="ready-btn-col text-center mt-5">
-                  <a href="http://app.wagonex.local/browse" class="btn col-md-2 mx-auto btn-primary">Browse cars</a>
+                  <a href="https://wagonex.com/browse" class="btn btn col-lg-3 col-xl-2 col-md-5 col-sm-5 col-xs-5 btn-primary mx-auto btn-primary">Browse cars</a>
                </div>
             </div>
          </div>

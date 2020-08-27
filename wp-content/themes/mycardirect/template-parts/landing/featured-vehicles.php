@@ -1,90 +1,52 @@
 <section class="featured-vehicle-section">
     <div class="container-fluid">
         <h2 class="text-center mt-4 mb-5">Featured vehicles</h2>
-            <div class="owl-carousel feature-vehicle owl-loaded owl-drag">
-                <div class="owl-stage-outer">
-                    <div class="owl-stage" style="transition: all 2s ease 0s; width: 5515px; transform: translate3d(-1225px, 0px, 0px);">
-                    <div class="owl-item"><div class="white-box-container" car_detail_url="http://app.wagonex.local/Abarth/Spider125/WGDX-73/351">
-                    <img src="https://s3-eu-west-1.amazonaws.com/wagonex/wagonex/1331055665.jpeg" width="48" alt="featured_vehicle">
-                    <h3 class="car-brand-name mt-4 mb-4">Abarth</h3>
-                    <h4 class="car-model-name">Spider125</h4>                                                                                                     <span class="car-price">From TBC</span>
-                    <span class="car-duration">24 month subscription</span>
-                </div>
-            </div>
-            <div class="owl-item">
-                <div class="white-box-container" car_detail_url="http://app.wagonex.local/Alfa Romeo/VISUAL/WGDX-74/349">
-                    <img src="https://s3-eu-west-1.amazonaws.com/wagonex/wagonex/589679421.jpeg" width="48" alt="featured_vehicle">
-                    <h3 class="car-brand-name mt-4 mb-4">Alfa Romeo</h3>
-                    <h4 class="car-model-name">VISUAL</h4>                                                                                                                                                  <input type="hidden" class="price-package" name="price_package[]" value="266">
-                    <input type="hidden" class="actual-price-package" name="actual_price_package[]" value="222">
-                    <span class="car-price">From £266 PCM (inc. VAT)</span>
-                    <span class="car-duration">One month subscription</span>
-                </div>
-            </div>
-    
-            <div class="owl-item active">
-                <div class="white-box-container" car_detail_url="http://app.wagonex.local/Abarth/Abarthsssh/WGDX-73/348">
-                    <img src="https://s3-eu-west-1.amazonaws.com/wagonex/wagonex/1251246339.png" width="48" alt="featured_vehicle">
-                    <h3 class="car-brand-name mt-4 mb-4">Abarth</h3>
-                    <h4 class="car-model-name">Abarthsssh</h4>                                                                                                    <span class="car-price">From TBC</span>
-                    <span class="car-duration">24 month subscription</span>
-                </div>
-            </div>
-            <div class="owl-item active center">
-                <div class="white-box-container" car_detail_url="http://app.wagonex.local/Abarth/Spider125/WGDX-73/351">
-                    <img src="https://s3-eu-west-1.amazonaws.com/wagonex/wagonex/1331055665.jpeg" width="48" alt="featured_vehicle">
-                    <h3 class="car-brand-name mt-4 mb-4">Abarth</h3>
-                    <h4 class="car-model-name">Spider125</h4>             
-                    <span class="car-price">From TBC</span>
-                    <span class="car-duration">24 month subscription</span>
-                </div>
-            </div>
-            <div class="owl-item active">
-                <div class="white-box-container" car_detail_url="http://app.wagonex.local/Alfa Romeo/VISUAL/WGDX-74/349">
-                    <img src="https://s3-eu-west-1.amazonaws.com/wagonex/wagonex/589679421.jpeg" width="48" alt="featured_vehicle">
-                    <h3 class="car-brand-name mt-4 mb-4">Alfa Romeo</h3>
-                    <h4 class="car-model-name">VISUAL</h4>                                                                                              <input type="hidden" class="price-package" name="price_package[]" value="266">
-                    <input type="hidden" class="actual-price-package" name="actual_price_package[]" value="222">
-                    <span class="car-price">From £266 PCM (inc. VAT)</span>
-                    <span class="car-duration">One month subscription</span>
-                </div>
-            </div>
-
-            <div class="owl-item">
-                <div class="white-box-container" car_detail_url="http://app.wagonex.local/Abarth/Abarthsssh/WGDX-73/348">
-                    <img src="https://s3-eu-west-1.amazonaws.com/wagonex/wagonex/1251246339.png" width="48" alt="featured_vehicle">
-                    <h3 class="car-brand-name mt-4 mb-4">Abarth</h3>
-                    <h4 class="car-model-name">Abarthsssh</h4>                                                                                                     <span class="car-price">From TBC</span>
-                    <span class="car-duration">24 month subscription</span>
-                </div>
-            </div>
-            <div class="owl-item">
-                <div class="white-box-container" car_detail_url="http://app.wagonex.local/Abarth/Spider125/WGDX-73/351">
-                    <img src="https://s3-eu-west-1.amazonaws.com/wagonex/wagonex/1331055665.jpeg" width="48" alt="featured_vehicle">
-                        <h3 class="car-brand-name mt-4 mb-4">Abarth</h3>
-                        <h4 class="car-model-name">Spider125</h4>                
-                        <span class="car-price">From TBC</span>
+        <div class="owl-carousel feature-vehicle owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+                <div class="owl-stage" style="transition: all 2s ease 0s; width: 5515px; transform: translate3d(-1225px, 0px, 0px);">
+                <div class="owl-item">
+                    <div class="white-box-container" car_detail_url="https://wagonex.com/Peugeot/E208%20Electric%20Active/WGDX-73/673">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/2069218320.png" width="48" alt="featured_vehicle">
+                        <h3 class="car-brand-name mt-4 mb-4">Peugeot</h3>
+                        <h4 class="car-model-name">E208</h4>                                                         <span class="car-price">From £582 PCM (inc. VAT)</span>
                         <span class="car-duration">24 month subscription</span>
                     </div>
                 </div>
-
                 <div class="owl-item">
-                    <div class="white-box-container" car_detail_url="http://app.wagonex.local/Alfa Romeo/VISUAL/WGDX-74/349">
-                        <img src="https://s3-eu-west-1.amazonaws.com/wagonex/wagonex/589679421.jpeg" width="48" alt="featured_vehicle">
-                        <h3 class="car-brand-name mt-4 mb-4">Alfa Romeo</h3>
-                        <h4 class="car-model-name">VISUAL</h4>                                                                                                 <input type="hidden" class="price-package" name="price_package[]" value="266">
-                        <input type="hidden" class="actual-price-package" name="actual_price_package[]" value="222">
-                        <span class="car-price">From £266 PCM (inc. VAT)</span>
-                        <span class="car-duration">One month subscription</span>
+                    <div class="white-box-container" car_detail_url="https://wagonex.com/Mercedes/EClass%20220%20SE%209GT/WGDX-73/593">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/584604636.png" width="48" alt="featured_vehicle">
+                        <h3 class="car-brand-name mt-4 mb-4">Mercedes</h3>
+                        <h4 class="car-model-name">EClass</h4>                                                    
+                        <span class="car-price">From £610 PCM (inc. VAT)</span>
+                        <span class="car-duration">24 month subscription</span>
                     </div>
                 </div>
-            
-                <div class="owl-item">
-                    <div class="white-box-container" car_detail_url="http://app.wagonex.local/Abarth/Abarthsssh/WGDX-73/348">
-                        <img src="https://s3-eu-west-1.amazonaws.com/wagonex/wagonex/1251246339.png" width="48" alt="featured_vehicle">
-                        <h3 class="car-brand-name mt-4 mb-4">Abarth</h3>
-                        <h4 class="car-model-name">Abarthsssh</h4>                                                                                                <span class="car-price">From TBC</span>
+        
+                <div class="owl-item active">
+                    <div class="white-box-container" car_detail_url="https://wagonex.com/Fiat/500L%20Cross%207City%201.4/WGDX-73/602">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/1048538798.png" width="48" alt="featured_vehicle">
+                        <h3 class="car-brand-name mt-4 mb-4">Fiat</h3>
+                        <h4 class="car-model-name">500 L</h4>
+                        <span class="car-price">From £375 PCM (inc. VAT)</span>
                         <span class="car-duration">24 month subscription</span>
+                    </div>
+                </div>
+                <div class="owl-item active center">
+                    <div class="white-box-container" car_detail_url="https://wagonex.com/BMW/3%20Series%20Pro%20Pack%20M/WGDX-73/669">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/331138104.png" width="48" alt="featured_vehicle">
+                        <h3 class="car-brand-name mt-4 mb-4">BMW</h3>
+                        <h4 class="car-model-name">3 Series</h4>             
+                        <span class="car-price">£668</span>
+                        <span class="car-duration">24 month subscription</span>
+                    </div>
+                </div>
+                <div class="owl-item active">
+                    <div class="white-box-container" car_detail_url="https://wagonex.com/Peugeot/5008%201.2%20GTL%20Prem/WGDX-73/588">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/1119876957.png" width="48" alt="featured_vehicle">
+                        <h3 class="car-brand-name mt-4 mb-4">Peugeot</h3>
+                        <h4 class="car-model-name">5008</h4>
+                        <span class="car-price">From £470 PCM (inc. VAT)</span>
+                        <span class="car-duration">18 month subscription</span>
                     </div>
                 </div>
             </div>
@@ -100,8 +62,8 @@
     </div>
     <div class="col-md-12 btn-section">
         <div class="d-flex justify-content-center action-block">
-            <a class="btn-primary btn" href="http://app.wagonex.local/Alfa Romeo/VISUAL/WGDX-74/349">View details</a>
-            <a class="btn-secondary btn ml-4" href="http://app.wagonex.local/browse">Browse more</a>
+            <a class="btn-primary btn" href="https://wagonex.com/browse" target="_blank">View details</a>
+            <a class="btn-secondary btn ml-4" href="https://wagonex.com/browse" target="_blank">Browse more</a>
         </div>
     </div>
 </div>

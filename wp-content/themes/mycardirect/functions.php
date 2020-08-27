@@ -352,9 +352,9 @@ function twentytwenty_sidebar_registration() {
 
 	// Arguments used in all register_sidebar() calls.
 	$shared_args = array(
-		'before_title'  => '<h2 class="widget-title subheading heading-size-3">',
-		'after_title'   => '</h2>',
-		'before_widget' => '<div class="widget %2$s"><div class="widget-content">',
+		'before_title'  => '<h4>',
+		'after_title'   => '</h4>',
+		'before_widget' => '<div><div class="widget-content">',
 		'after_widget'  => '</div></div>',
 	);
 
@@ -381,6 +381,28 @@ function twentytwenty_sidebar_registration() {
 			)
 		)
 	);
+
+register_sidebar(
+		array_merge(
+			$shared_args,
+			array(
+				'name'        => __( 'Footer #3', 'twentytwenty' ),
+				'id'          => 'sidebar-3',
+				'description' => __( 'Widgets in this area will be displayed in the third column in the footer.', 'twentytwenty' ),
+			)
+		)
+	);
+	
+	register_sidebar(
+		array_merge(
+			$shared_args,
+			array(
+				'name'        => __( 'Footer #4', 'twentytwenty' ),
+				'id'          => 'sidebar-4',
+				'description' => __( 'Widgets in this area will be displayed in the fourth column in the footer.', 'twentytwenty' ),
+			)
+		)
+	);		
 
 }
 

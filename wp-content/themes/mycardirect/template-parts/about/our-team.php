@@ -15,7 +15,7 @@
                 $posts = get_posts($args);
                 foreach ($posts as $post) : ?>
 
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="out-team-container">
                         <div class="member-pic">
                             <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>

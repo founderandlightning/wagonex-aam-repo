@@ -19,7 +19,7 @@ footer h4 {
     padding: 50px 80px;
 }
 .new-landing-footer h4 {
-    font-weight: bold;
+    font-weight: bold !important;
     font-size: 15px;
     line-height: 20px;
     color: #717482;
@@ -51,7 +51,7 @@ footer h4 {
     line-height: 18px;
     font-size: 13px;
     text-align: left;
-    color: #FFF;
+    color: rgba(255,255,255, 0.5);
 }
 .footer-col-social ul {
     float: none;
@@ -89,7 +89,7 @@ a.twitter-icon {
 }
 .footer-content-section {
     margin: 0;
-    padding: 30px 18px 0 18px;
+    padding: 30px 0 0 0;
 }
 
 .logo-section-background {
@@ -98,6 +98,7 @@ a.twitter-icon {
 
 .your-term-section .main-container {
     background-color: linear-gradient(90deg, rgba(78, 112, 29, 0.5) 54.25%, rgba(97, 147, 26, 0.11) 87.25%);
+    padding: 0;
 }
 .testimonail-logo {
     margin: 0 auto;
@@ -164,7 +165,40 @@ a.twitter-icon {
 }
 .logo-section {
     padding-bottom: 20px;
+    text-align: center;
 }
 .best-car-container .sub-widget::after {
     display: none;
+}
+.new-landing-footer ul.footer-nav li {
+    display: flex;
+}
+.new-landing-footer ul.footer-nav li span {
+    min-width: 50px;
+}
+
+@media (max-width: 1024px) {
+    .out-team-container {
+        margin: 0 0 50px 0;
+    }
+    .team-section {
+        padding: 0 20px;
+    }
+    .out-team-container .member-pic img {
+        width: 100px;
+    }
+    .new-landing-footer {
+        padding: 50px 30px;
+    }
+}
+@media (max-width: 768px) {
+    .hero-content-section h1 {
+        font-size: 30px;
+    }
+    .logo-section img {
+        margin: 20px 10px
+    }
+    .hero-content-section h5 p {
+        font-size: 20px;
+    }
 }

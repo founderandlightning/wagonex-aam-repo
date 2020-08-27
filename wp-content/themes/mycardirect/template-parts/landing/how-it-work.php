@@ -16,13 +16,13 @@
                             <div class="white-box-container col-md-12">
                                 <div class="white-box d-flex justify-content-center flex-column"> 
                                     <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-                                    <h5 class="d-flex my-1 align-left justify-content-start m-0">
+                                    <h5 class="d-flex my-1 align-left align-items-center justify-content-start m-0">
                                         <div class="pr-4">
                                             <img src="<?php echo $url; ?>" width="48" alt="collection" />
                                         </div>
                                         <?php echo $post->post_title; ?>
                                     </h5>
-                                    <p><?php echo $post->post_content; ?></p>
+                                    <p class="mt-4"><?php echo $post->post_content; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -35,7 +35,7 @@
         <div class="owl-nav">
             <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
             <div class="col-md-12 btn-section">
-                <a class="btn btn-secondary ml-5" href="http://app.wagonex.local/howitworks">Learn more</a>
+                <a class="btn btn-secondary" href="<?php echo get_home_url(); ?>/how-it-works/">Learn more</a>
             </div>
         </div>
     </div>
