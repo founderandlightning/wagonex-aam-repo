@@ -176,6 +176,10 @@ a.twitter-icon {
 .new-landing-footer ul.footer-nav li span {
     min-width: 50px;
 }
+.new-landing-footer ul.footer-nav li strong {
+    min-width: 50px;
+    font-weight: normal;
+}
 
 @media (max-width: 1024px) {
     .out-team-container {

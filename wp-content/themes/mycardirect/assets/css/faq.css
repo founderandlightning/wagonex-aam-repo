@@ -1,0 +1,284 @@
+.page-title {
+	padding: 67px 0 0 0;
+    background: #F2F5FA;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+.page-title h2 {
+	font-size: 40px;
+	line-height: 56px;
+	text-align: center;
+	color: #2D2E34;
+	font-weight: bold;
+	text-transform: none;
+	margin: 48px 0 48px 0;
+}
+.faq-section h6 a,
+.faq-section h6 a:hover,
+.faq-section h6 a:focus,
+.faq-section h6 a:visited,
+.faq-section h6 a:active {
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #2D2E34;
+	text-transform: none;
+}
+.faq-section .faq-panel {
+	box-shadow: inset 0px -1px 0px #BEC9D6;;
+	border-bottom: 0;
+	padding: 20px 0;
+}
+.faq-section .faq-answer {
+	padding: 0;
+	font-size: 15px;
+	color: #2D2E34;
+	line-height: 20px;
+}
+.faq-section .faq-answer p {
+	margin-bottom: 10px;
+	font-size: 15px;
+	line-height: 26px;
+	margin: 0 0 5px 0;
+}
+.faq-sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.faq-sidebar ul li {
+	margin: 0;
+	padding:4px 11px 13px 16px;
+	list-style: none;	
+	position: relative;
+}
+.faq-sidebar ul li a {
+	font-size: 15px;
+	line-height: 16px;
+	color: #2D2E34;
+	font-weight: bold;
+}
+.faq-sidebar ul li a.active {
+	color: #8FC640;	
+	font-weight: bold;
+}
+
+.faq-sidebar ul li a.active::after {
+    content: "";
+    position: absolute;
+    font-size: 14px;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 29px;
+    background: #8FC640;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.faq-right-section {
+	margin:11px 0 0 0;
+}
+.faq-sidebar {
+	margin:55px 0 55px 0;
+	padding:0 34px 0 0;
+}
+.faq-right-section h2.title-bar {
+	font-size: 18px;
+	text-align: left;
+	line-height: 30px;
+	margin: 40px 0 0 0;
+	padding: 0;
+	font-weight: bold;
+	text-transform: none;
+	color: #95A2BA;
+}
+.question_underline {
+	text-decoration: underline;
+	font-size: 16px;
+	line-height: 28px;
+	color: #000000;
+}
+.ref_url,
+.ref_url:hover,
+.ref_url:focus,
+.ref_url:active {
+	text-decoration: underline;
+	font-size: 14px;
+	color: #000000;
+	padding: 0 0 20px 0;
+	display: block;
+}
+.email-link,
+.email-link:hover,
+.email-link:focus,
+.email-link:active,
+.email-link:visited {	
+	font-size: 14px;
+	color: #000000;	
+}
+.faq-right-section .more-less {
+	background: url(../images/open-arrow.svg) no-repeat 0 0;
+    width: 13px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.faq-right-section .more-less::before {
+	content: "";
+}
+.faq-right-section .faq-section h6 a.collapsed .more-less{
+	background: url(../images/drop-down-arrow.svg) no-repeat 0 0;
+}
+.faq-right-section .panel-group .panel-heading h6 {
+	margin: 6px 0;
+	padding: 0 20px 0 0;
+	position: relative;
+	font-size: 15px
+}
+.faq-answer ul {
+	padding: 10px 0 0 17px;
+    list-style: none;
+    margin: 0 0 10px 20px;
+}
+.faq-answer ul li {
+	position: relative;
+	padding: 3px 0;
+}
+.faq-answer ul li::before {
+	position: absolute;
+    content: "";
+    width: 3px;
+    height: 3px;
+    background: #000;
+    border-radius: 100%;
+    top: 11px;
+    left: -14px;
+}
+.ready_section {
+    background: url(../images/get-register-banner.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+    position: relative;
+}
+.ready_section h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 0 32px;
+    text-transform: none;
+}
+.text-center {
+    text-align: center;
+}
+.getstarted.ready_section a {
+    text-align: center;
+    float: none;
+}
+.faq-answer p a {
+    color: #6C7072;
+    text-decoration: underline;
+}
+.faq-section .faq-panel .panel-heading {
+	padding: 0 0px 3px 0;
+}
+.panel-group {
+	margin: 0;
+}
+
+.faq-sidebar ul ul {
+	margin: 12px 0 0 4px;
+}
+.faq-sidebar ul ul li a.active::after {
+	left: -20px;
+}
+.faq-section .faq-answer p a{
+	color: #8FC640;
+	font-size: 15px;
+}
+.page-title-container {
+    background: #EFFFD9;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 75px 0 32px 0;
+    max-width: 100%;
+}
+.hide {
+	display: none;
+}
+div.policy p, div.policy li{
+	font-size: 15px;
+}
+div.policy a{
+	color: #8FC640;
+}
+div.policy h4{
+	font-size: 24px;
+	line-height: 32px;
+	margin: 2rem auto 1rem;
+}
+div.policy ul, div.policy ol {
+	margin-bottom: 2rem;
+}
+@media only screen and (max-width: 1440px) and (min-width: 1200px){
+	.container {
+	    padding-left: 0px;
+	    padding-right: 0px;
+	}
+}
+
+@media only screen and (max-width: 981px) {	
+	.faq-sidebar {
+		margin: 0;
+		width: 100%;
+		padding: inherit;
+		padding: 0 15px;		
+	}
+	.faq-sidebar .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100%;
+	}
+	.faq-sidebar .btn-group>.btn:first-child {
+		margin-left: 0;
+		border: #000 solid 1px;
+		border-radius: 0;
+		height: 42px;
+	}
+	.page-title h2 {
+		font-size: 28px;
+		line-height: 40px;
+		margin: 20px 0 20px 0;
+	}
+	.wagonex-section ul.custom {
+		margin: 0;
+	}	
+	.faq-sidebar .dropdown-menu>li>a:focus, 
+	.faq-sidebar .dropdown-menu>li>a:hover {
+		background: #FFFFFF;
+	}
+	.faq-sidebar .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+		font-weight: bold;
+	}
+	.faq-right-section {
+		width: 100%;
+		margin: 0;
+		padding: 0 15px;
+	}	
+	.title-bar {
+		margin: 40px 0 24px 0;
+	}
+	.page-title {
+	    padding: 35px 0 35px 0;
+	}
+}

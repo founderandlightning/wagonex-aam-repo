@@ -130,3 +130,63 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[28-Aug-2020 04:09:12 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[29-Aug-2020 04:08:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[30-Aug-2020 04:00:28 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[30-Aug-2020 14:21:46 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[31-Aug-2020 04:10:35 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[01-Sep-2020 04:13:46 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[02-Sep-2020 04:15:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[03-Sep-2020 04:13:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[04-Sep-2020 04:13:27 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[05-Sep-2020 04:13:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[06-Sep-2020 04:02:21 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[07-Sep-2020 04:11:24 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[08-Sep-2020 04:10:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[09-Sep-2020 04:02:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17
+[10-Sep-2020 04:12:02 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/mycardirect.co.uk/public_html/wp-content/themes/mycardirect/index.php on line 17

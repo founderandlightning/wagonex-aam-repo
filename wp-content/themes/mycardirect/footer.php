@@ -102,8 +102,17 @@
          </section>
       </footer>	           
       <script src="<?php bloginfo('template_url'); ?>/assets/js/jquery-3.2.1.slim.min.js" ></script>
+      <script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.min.js" ></script>
       <script src="<?php bloginfo('template_url'); ?>/assets/js/landing_crousel.js" async></script>
       <script src="<?php bloginfo('template_url'); ?>/assets/js/landing_crousel_setting.js" async></script>
+      <script src="<?php bloginfo('template_url'); ?>/assets/js/bootstrap.min.js"></script>
+      <script src="<?php bloginfo('template_url'); ?>/assets/js/bootstrap-select.js" async></script>
+      <?php if (is_page(38)) { ?>
+      <script src="<?php bloginfo('template_url'); ?>/assets/js/stickySidebar.js" async></script>
+      <script src="<?php bloginfo('template_url'); ?>/assets/js/theia-sticky-sidebar.js" async></script>
+      <script src="<?php bloginfo('template_url'); ?>/assets/js/faq.js" async></script>
+      <?php } ?>
 		<?php wp_footer(); ?>
+      <?php include_once("cookie-consent.php"); ?>
 	</body>
 </html>

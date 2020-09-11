@@ -592,6 +592,10 @@ header .primary-menu > li {
     display: flex;
     flex-flow: column;
 }
+.new-landing-footer ul.footer-nav li strong {
+    min-width: 40px;
+    font-weight: normal;
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1360px) {  

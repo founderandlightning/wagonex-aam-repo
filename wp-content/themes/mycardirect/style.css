@@ -965,7 +965,10 @@ th {
 .admin-bar .screen-height {
 	min-height: calc(100vh - 32px);
 }
-
+ol, ul {
+	font-size: 15px;
+    color: #2d2e34;
+}
 @media (max-width: 782px) {
 
 	.admin-bar .screen-height {
