@@ -12,21 +12,14 @@
                     $posts = get_posts($args);
                     foreach ($posts as $post) :
                         $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID));
-                        $post_meta = get_post_meta($post->ID);
-
-                        $detail_url = $post_meta['detail_url'] ?? get_option('app_site_url');
-                        $brand = $post_meta['brand'] ?? $post->post_title;
-                        $model = $post_meta['model'] ?? null;
-                        $price = $post_meta['price'] ?? null;
-                        $subscription = $post_meta['subscription'] ?? null;
                         ?>
                         <div class="owl-item">
-                            <div class="white-box-container" car_detail_url="<?php echo $detail_url; ?>">
+                            <div class="white-box-container" car_detail_url="<?php echo get_post_meta($post->ID, 'detail_url', true) ?? get_option('app_site_url'); ?>">
                                 <img src="<?php echo $url; ?>" width="48" alt="featured_vehicle">
-                                <h3 class="car-brand-name mt-4 mb-4"><?php echo $brand; ?></h3>
-                                <h4 class="car-model-name"><?php echo $model; ?></h4>
-                                <span class="car-price"><?php echo $price; ?></span>
-                                <span class="car-duration"><?php echo $subscription; ?></span>
+                                <h3 class="car-brand-name mt-4 mb-4"><?php echo get_post_meta($post->ID, 'brand', true) ?? $post->post_title; ?></h3>
+                                <h4 class="car-model-name"><?php echo get_post_meta($post->ID, 'model', true) ?? null; ?></h4>
+                                <span class="car-price"><?php echo get_post_meta($post->ID, 'price', true) ?? null; ?></span>
+                                <span class="car-duration"><?php echo get_post_meta($post->ID, 'subscription', true) ?? null; ?></span>
                             </div>
                         </div>
 
