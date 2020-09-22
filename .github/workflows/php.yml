@@ -22,5 +22,4 @@ jobs:
           --exclude /deploy_key \
           --exclude /.git/ \
           --exclude /.github/ \
-          --exclude / wp-config.php \
           ./ ${{env.dest}}
