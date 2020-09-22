@@ -13,7 +13,7 @@ jobs:
    
     - name: Sync
       env:
-        dest: 'u668-zznpt3duudzt@mycardirect.co.uk:18765/home/customer/www/staging2.mycardirect.co.uk/public_html/'
+        dest: 'u668-zznpt3duudzt@guk1023.siteground.eu:18765/home/customer/www/staging2.mycardirect.co.uk/public_html/'
       run: |
         echo "${{secrets.DEPLOY_KEY}}" > deploy_key
         chmod 600 ./deploy_key
