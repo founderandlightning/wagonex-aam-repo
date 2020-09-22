@@ -968,6 +968,38 @@ function our_team_post()
   add_action('init', 'our_team_post');
 
 //**************************************************
+//                  Featured Vehicles
+//**************************************************
+function featured_vehicles()
+{
+    $labels = array(
+      'name'               => _x('Featured vehicles', 'post type general name'),
+      'singular_name'      => _x('Featured vehicle', 'post type singular name'),
+      'add_new'            => _x('Add Featured vehicle', 'Featured vehicles'),
+      'add_new_item'       => __('Add New Featured vehicle'),
+      'edit_item'          => __('Edit Featured vehicle'),
+      'new_item'           => __('New Featured vehicle'),
+      'all_items'          => __('Featured vehicles'),
+      'view_item'          => __('View Featured vehicle'),
+      'search_items'       => __('Search Featured vehicles'),
+      'not_found'          => __('No Featured vehicle found'),
+      'not_found_in_trash' => __('No Featured vehicle in the Trash'),
+      'parent_item_colon'  => '',
+      'menu_name'          => 'Featured vehicles'
+    );
+    $args = array(
+      'labels'        => $labels,
+      'description'   => 'Holds Featured vehicles data',
+      'public'        => true,
+      'menu_position' => 6,
+      'supports'      => array( 'title', 'editor', 'thumbnail', 'custom-fields'),
+      'has_archive'   => true,
+    );
+    register_post_type('featured_vehicle', $args);
+}
+add_action('init', 'featured_vehicles');
+
+//**************************************************
 //                  Add custom Setting Input
 //**************************************************
 
