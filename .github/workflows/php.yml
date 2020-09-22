@@ -13,7 +13,7 @@ jobs:
    
     - name: Sync
       env:
-        dest: 'www/staging2.mycardirect.co.uk/public_html/wp-content/themes/'
+        dest: '/www/staging2.mycardirect.co.uk/public_html/wp-content/themes/'
       run: |
         echo "${{secrets.DEPLOY_KEY}}" > deploy_key
         chmod 600 ./deploy_key
