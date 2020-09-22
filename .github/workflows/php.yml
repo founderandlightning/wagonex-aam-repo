@@ -13,12 +13,12 @@ jobs:
    
     - name: Sync
       env:
-        dest: 'u668-zznpt3duudzt@guk1023.siteground.eu/home/customer/www/staging2.mycardirect.co.uk/public_html/'
+        dest: 'www/staging2.mycardirect.co.uk/public_html/'
       run: |
         echo "${{secrets.DEPLOY_KEY}}" > deploy_key
         chmod 600 ./deploy_key
         rsync -chav --delete \
-          -e 'ssh -i ./deploy_key -p 18765 -o StrictHostKeyChecking=no' \
+          -e 'ssh -i ./deploy_key u668-zznpt3duudzt@guk1023.siteground.eu -p 18765 -o StrictHostKeyChecking=no' \
           --exclude /deploy_key \
           --exclude /.git/ \
           --exclude /.github/ \
