@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
    
-    - name: Sync
+    - name: Start Sync
       env:
         dest: 'u668-zznpt3duudzt@guk1023.siteground.eu:/home/customer/www/staging2.mycardirect.co.uk/public_html/wp-content/themes/mycardirect/'
       run: |
