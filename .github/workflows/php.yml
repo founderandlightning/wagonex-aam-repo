@@ -17,5 +17,5 @@ jobs:
       run: |
         echo "${{secrets.SECRET_KEY}}" > deploy_key
         chmod 600 deploy_key
-        ssh -tt -i deploy_key u668-zznpt3duudzt@mycardirect.co.uk -p 18765
+        ssh -tt -i deploy_key u668-zznpt3duudzt@mycardirect.co.uk -p 18765 -o StrictHostKeyChecking=no
         cd www/
