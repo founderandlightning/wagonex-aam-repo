@@ -17,4 +17,4 @@ jobs:
       run: |
         echo "${{secrets.DEP_KEY}}" > deploy_key
         chmod 600 deploy_key
-        rsync -a -e "ssh  -i deploy_key u668-zznpt3duudzt@mycardirect.co.uk -p 18765 -o StrictHostKeyChecking=no" --exclude=assets --exclude=classes  --exclude=inc  --exclude=template-parts --exclude=templates ./wp-content/themes/mycardirect/ www/staging2.mycardirect.co.uk/public_html/wp-content/themes/mycardirect/
+        rsync -a -e "ssh  -i deploy_key u668-zznpt3duudzt@mycardirect.co.uk -p 18765 -o StrictHostKeyChecking=no" ./wp-content/themes/mycardirect/ ./www/staging2.mycardirect.co.uk/public_html/wp-content/themes/mycardirect/
