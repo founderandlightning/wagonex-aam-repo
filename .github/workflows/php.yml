@@ -15,7 +15,7 @@ jobs:
       env:
         dest: 'u668-zznpt3duudzt@guk1023.siteground.eu:/home/customer/www/staging2.mycardirect.co.uk/public_html/wp-content/themes/mycardirect/'
       run: |
-        echo "${{secrets.DEP_KEY}}" > deploy_key
+        echo "${{secrets.SECRET_KEY}}" > deploy_key
         chmod 600 deploy_key
         ssh -i deploy_key u668-zznpt3duudzt@mycardirect.co.uk -p 18765 -o StrictHostKeyChecking=no
         cd www/
